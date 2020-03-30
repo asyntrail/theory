@@ -1,0 +1,290 @@
+body
+  font-family: sans-serif
+  margin: 0px
+  box-sizing: border-box
+  background: #ffffca
+
+.container
+  margin: 0 auto
+  max-width: 940px
+
+header
+  box-sizing: border-box
+  position: fixed
+  top: 0
+  width: 100%
+  background: #ffde28
+  min-height: 80px
+  padding: 0 10px
+  display: flex
+  justify-content: space-between
+  +r(700)
+    flex-wrap: wrap
+
+
+.logo
+  display: flex
+  +r(700)
+    width: 100%
+    justify-content: center
+
+.header-img
+  width: 80px
+  height: auto
+  display: flex
+  margin: 0px 10px 0px 30px
+
+.logo-title
+  font-family: arial
+  margin-top: 28px
+  font-size: 27px
+
+.nav
+  +r(700)
+    width: 100%
+  ul
+    display: flex
+    justify-content: space-between
+    box-sizing: border-box
+    flex-direction: row
+    list-style: none
+    overflow: hidden
+    padding: 35px 0px 0px 0px
+    margin: 0
+    +r(700)
+      width: 100%
+      padding: 0px 0px 10px 0px
+      text-align: center
+  li
+    a
+      display: block
+      text-decoration: none
+      text-transform: uppercase
+      padding: 0px 14px
+      color: black
+      font-weight: bold
+      &:hover
+        color: white
+
+
+
+.catalog
+  margin-top: 120px
+
+.section-title
+  padding: 30px 0px
+  text-align: center
+
+
+.catalog-coloms
+  display: flex
+  justify-content: space-between
+  padding: 0 2%
+  +r(600)
+    display: block
+
+
+
+.catalog-col
+  box-sizing: border-box
+  text-align: center
+  border: 1px solid gray
+  width: 33%
+  padding: 0 2%
+  margin: 10px
+  +r(600)
+    width: 100%
+    margin: 10px 0px
+
+.img-comtainer
+  height: 200px
+  width: 200px
+
+.catalog-col__img
+  height: 200px
+  width: 100%
+  object-fit: cover
+  +r(600)
+    height: 300px
+
+.catalog-col__description
+  // width: 200px
+
+.catalog-col__price
+  font-weight: bold
+  font-size: 25px
+
+
+.review__video
+  padding: 0 4%
+
+.description
+  text-align: center
+  font-size: 18px
+
+.form
+  display: block
+  // text-align: center
+  margin: 0 auto
+  width: 70%
+
+
+
+.form__input
+  display: block
+  width: 100%
+  height: 53px
+  text-align: left
+  text-decoration: none
+  box-sizing: border-box
+  font-size: 20px
+  // border-radius: 30px
+  border: 2px solid gray
+  // color: white
+  margin: 10px 0px 20px 0px
+  // background: green
+  padding-left: 10px
+
+::-webkit-input-placeholder
+    color: #bcc7bc
+
+
+
+.form__input:focus
+  outline: none
+
+
+.form__btn ,.catalog-col__btn
+  border: 2px solid gray
+  background: #ffde28
+  color: black
+  padding: 10px 30px
+  font-weight: bold
+  margin: 10px auto 20px auto
+  text-align: center
+  display: block
+  &:hover
+    color: white
+    border: 2px solid black
+    background: gray
+    cursor: pointer
+.text
+  min-height: 150px
+  padding-left: 20px
+
+footer
+  background: gray
+  display: flex
+  justify-content: space-between
+  color: black
+  padding: 20px
+  font-size: 12px
+  ul
+    display: flex
+    list-style: none
+    overflow: hidden
+    padding: 0
+    margin: 0
+  a
+    display: block
+    text-decoration: none
+    text-transform: uppercase
+    padding: 0px 10px
+    color: black
+    font-weight: bold
+    &:hover
+        color: white
+
+
+
+
+
+// English theory
+// body
+//   margin: 8px
+//   font-family: Arial, sans-serif
+//   background: #f7f8f9
+
+// .container
+//   max-width: 940px
+//   margin: 0 auto
+
+// .custom-title
+//   line-height: 200%
+//   font-size: 18px
+
+// .sub-title
+//   line-height: 200%
+//   font-size: 16px
+
+// .center
+//   text-align: center
+
+// .text
+//   line-height: 150%
+//   font-size: 16px
+//   margin-top: 16px
+//   margin-bottom: 9px
+
+// .list
+//   line-height: 150%
+//   font-size: 21px
+//   li
+//     list-style-type: disc
+
+// .italics
+//   color: green
+//   font-weight: bold
+//   text-decoration: none
+
+// .homebox
+//   text-align: center
+//   font-size: 22px
+
+
+
+// .edit
+//   font-weight: bold
+//   font-style: italic
+
+// .lesson-img1
+//   height: 189px
+//   +r(301)
+//     width: 100%
+
+// .img-block
+//   text-align: center
+
+// table
+//   margin: 0px auto 50px auto
+//   width: 50%
+//   +r(600)
+//     width: 100%
+
+
+// table, th, td
+//   border: 1px solid black
+//   vertical-align: middle
+//   padding: 1px
+//   font-weight: bold
+//   font-style: italic
+//   font-size: 16px
+
+// .verbs td
+//   +r(530)
+//     font-size: 12px
+
+// table tr:nth-child(odd)
+//   background: #f1f9ff
+
+// table tr:nth-child(even)
+//   background: #E5E5E5s
+
+// a:hover
+//  color: $active-color
+
+
+
+
+
+
